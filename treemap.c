@@ -173,10 +173,10 @@ Pair* searchTreeMap(TreeMap* tree, void* key) {
           
         } else if (tree->lower_than(key, current_node->pair->key) == 0) {
           
-            current_node = current_node->left;
+            current_node = current_node->right;
           
         } else {
-            current_node = current_node->right; 
+            current_node = current_node->left; 
         }
     }
     return NULL;
