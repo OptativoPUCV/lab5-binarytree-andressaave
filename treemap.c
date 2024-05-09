@@ -135,7 +135,7 @@ void eraseTreeMap(TreeMap * tree, void* key){
 }
 
 Pair* searchTreeMap(TreeMap* tree, void* key) {
-    if (tree == NULL || tree->root == NULL) return NULL;
+    /*if (tree == NULL || tree->root == NULL) return NULL;
 
     TreeNode *current_node = tree->root;
   
@@ -153,7 +153,7 @@ Pair* searchTreeMap(TreeMap* tree, void* key) {
         } 
         else current_node = current_node->left; 
       
-    }
+    }*/
     return NULL;
 }
 
