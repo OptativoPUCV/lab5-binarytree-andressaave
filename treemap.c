@@ -181,8 +181,8 @@ Pair* searchTreeMap(TreeMap* tree, void* key) {
 }
 
 
-/*Pair * upperBound(TreeMap * tree, void* key) {
-  if (tree == NULL || tree->root == NULL) {
+Pair * upperBound(TreeMap * tree, void* key) {
+  /*if (tree == NULL || tree->root == NULL) {
       
       return NULL;
   }
@@ -211,8 +211,9 @@ Pair* searchTreeMap(TreeMap* tree, void* key) {
   } else {
       
       return NULL;
-  }
-}*/
+  }*/
+  return NULL;
+}
 
 Pair * firstTreeMap(TreeMap * tree) {
     
